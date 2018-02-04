@@ -188,8 +188,8 @@ for x in flames:
 
 xor = int(math.ceil(len(data)/6.0)) * key
 
-# print data
-# print xor
+# print(data)
+# print(xor)
 
 # XOR data and xor strings together
 
@@ -198,10 +198,10 @@ results = ""
 for i,c in enumerate(data):
 	results = results + str(int(c) ^ int(xor[i]))
 
-# print results
+# print(results)
 
 # Decode result as ascii string
 
 decoded_str = string_decode(results)
 
-print decoded_str
+print(decoded_str)
