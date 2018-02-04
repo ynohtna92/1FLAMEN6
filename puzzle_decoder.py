@@ -129,7 +129,7 @@ flames = [
 	"1101",
 	"1101",
 	"0010",
-	"1111", # Bottom Outer (right -> left)
+	"1111", # Bottom Outer (left -> right)
 	"0100",
 	"0000",
 	"0000",
@@ -157,7 +157,7 @@ flames = [
 	"1111",
 	"0101",
 	"0000",
-	"1111", # Top Outer (left -> right)
+	"1111", # Top Outer (right -> left)
 	"0010",
 	"1110",
 	"1101",
